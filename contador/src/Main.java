@@ -21,7 +21,7 @@ public class Main {
        }
 
         if(opcao == 1) {
-            //inseção manual
+            //inserção manual
 
             System.out.println("Digite o primeiro parâmetro");
              parametroUm = terminal.nextInt();
@@ -30,7 +30,7 @@ public class Main {
              parametroDois = terminal.nextInt();
         }
         else if(opcao == 2){
-            //inseção automática
+            //inserção automática
 
          parametroUm = ThreadLocalRandom.current().nextInt(100);
         System.out.println("Parâmetro 1 é: " + parametroUm);
